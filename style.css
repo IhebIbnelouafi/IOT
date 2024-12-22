@@ -1,0 +1,143 @@
+/* Apply the font to the body */
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style for Command List Titles */
+.list-group-item-primary {
+    background-color: #343a40; /* Same color as the navbar */
+    color: white;              /* Make the title text white */
+    font-size: 1.2rem;
+    font-weight: 600;          /* Bold font weight */
+    padding: 12px;            /* Adjust padding if needed */
+    margin-bottom: 5px;       /* Optional: space between items */
+    border-radius: 5px;       /* Rounded corners */
+}
+
+/* Command Links */
+.list-group-item a {
+    font-size: 1rem;
+    font-weight: 400; /* Regular font weight */
+    color: #0f6cce;   /* Blue color for links */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px; /* Padding for a better click area */
+    border-radius: 4px; /* Slight rounding for the links */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover Effect for Links */
+.list-group-item a:hover {
+    text-decoration: underline;
+    color: #45484b;
+    background-color: #e0e0e0; /* Light background on hover */
+}
+
+/* Range Slider */
+#speedSlider {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #ddd; /* Add background for better visibility */
+    border: 1px solid #ccc; /* Slight border for the slider */
+    transition: background-color 0.3s ease; /* Transition for background change */
+}
+
+#speedSlider:hover {
+    background-color: #ccc; /* Change background color on hover */
+}
+
+
+/* Contact Section */
+.contact-info {
+    max-width: 1200px; /* Increase the max-width to allow space for the image */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Title */
+.contact-info h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Contact Info Text */
+.contact-info p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Contact List */
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+.contact-info form {
+    margin-top: 30px;
+}
+
+/* Form Input and Textarea */
+.contact-info .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Submit Button */
+.contact-info button {
+    display: block;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-info button:hover {
+    background-color: #003b6f;
+}
+
+
+/* Image Styling */
+.contact-info img {
+    width: 100%; /* Ensure it takes the full width of its container */
+    height: auto;
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the image */
+    margin-top: 100px;
+}
+
+/* Footer Styling */
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem; /* Slightly smaller text for footer */
+    margin-top: 20px;  /* Adds space above footer */
+}
